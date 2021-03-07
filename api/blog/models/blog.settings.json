@@ -22,6 +22,17 @@
     },
     "Category": {
       "model": "category"
+    },
+    "TitleImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
